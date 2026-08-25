@@ -1,11 +1,15 @@
-# Estevão Barbieri — Site profissional
+# Estevão Barbieri — Site profissional V2
 
-Arquivos prontos para publicação no GitHub Pages.
+## Atualização no GitHub
+Substitua na raiz do repositório:
+- `index.html`
+- `style.css`
+- `script.js`
 
-## Publicação
-1. Envie `index.html`, `style.css` e `script.js` para a raiz do repositório.
-2. No GitHub: Settings > Pages.
-3. Em Build and deployment, escolha Deploy from a branch.
-4. Branch: `main` / `/root`.
-5. Salve.
-6. Depois configure o domínio personalizado `estevaobarbieri.com.br`.
+O GitHub Pages fará um novo deploy automaticamente após o commit.
+
+## Identidade
+- Azul-marinho: #071A33
+- Azul institucional: #164E87
+- Azul de destaque: #2684D9
+- Tipografia: Montserrat + Inter
