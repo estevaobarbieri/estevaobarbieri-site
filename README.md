@@ -1,15 +1,14 @@
-# Estevão Barbieri — Site profissional V2
+# Estevão Barbieri — Site profissional V2.1
 
-## Atualização no GitHub
+Versão de acabamento final.
+
+## Atualização
 Substitua na raiz do repositório:
 - `index.html`
 - `style.css`
 - `script.js`
 
-O GitHub Pages fará um novo deploy automaticamente após o commit.
+E adicione:
+- `favicon.svg`
 
-## Identidade
-- Azul-marinho: #071A33
-- Azul institucional: #164E87
-- Azul de destaque: #2684D9
-- Tipografia: Montserrat + Inter
+Após o commit, aguarde o GitHub Pages concluir o novo deploy.

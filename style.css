@@ -100,3 +100,67 @@ footer{background:#04111f;color:#8fa0b0}
   .footer{grid-template-columns:1fr;text-align:center;padding:25px 0;gap:10px}
   .footer-brand{align-items:center}
 }
+
+
+/* V2.1 — acabamento final */
+.brand{
+  font-size:.82rem;
+}
+.hero{
+  min-height:calc(100vh - 78px);
+}
+.hero-grid{
+  padding:56px 0 48px;
+}
+.hero h1{
+  font-size:clamp(3rem,6.1vw,6rem);
+}
+.hero h2{
+  font-size:clamp(1.7rem,3.15vw,2.7rem);
+  font-weight:600;
+}
+.crea span{
+  color:var(--accent);
+  padding:0 7px;
+}
+.expertise-card{
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.expertise-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 34px rgba(7,26,51,.07);
+  border-color:#cbd8e3;
+}
+.arrow-link span,.button span{
+  transition:transform .18s ease;
+}
+.arrow-link:hover span,.button:hover span{
+  transform:translateX(3px);
+}
+.desktop-nav a{
+  position:relative;
+}
+.desktop-nav a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-7px;
+  width:0;
+  height:1px;
+  background:var(--accent);
+  transition:width .18s ease;
+}
+.desktop-nav a:hover::after{
+  width:100%;
+}
+@media(max-width:800px){
+  .brand{font-size:.72rem}
+  .hero-grid{padding:52px 0 46px}
+  .hero h1{font-size:clamp(3.1rem,16vw,5.3rem)}
+  .hero h2{font-size:clamp(1.55rem,7vw,2.15rem)}
+  .crea span{display:none}
+  .crea{line-height:1.8}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important;transition:none!important}
+}
