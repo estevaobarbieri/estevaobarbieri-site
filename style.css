@@ -185,7 +185,7 @@ footer{background:#04111f;color:#8fa0b0}
 }
 .brand img{
   display:block;
-  width:52px;
+  width:57.2px;
   height:auto;
   object-fit:contain;
 }
@@ -239,7 +239,7 @@ footer{
     height:46px;
   }
   .brand img{
-    width:42px;
+    width:46.2px;
   }
   .footer{
     grid-template-columns:1fr;

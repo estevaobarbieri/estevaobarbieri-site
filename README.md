@@ -1,25 +1,13 @@
-# Estevão Barbieri — Site V2.3.1
+# Estevão Barbieri — Site V2.3.2
 
-Organização da estrutura de arquivos.
+Ajuste pontual sobre a V2.3.1.
 
-## Estrutura
-Raiz:
-- index.html
-- style.css
-- script.js
-- CNAME
-- README.md
+## Alteração
+- Monograma EB aumentado em 10% no cabeçalho.
+- Desktop: 52 px → 57,2 px.
+- Mobile: 42 px → 46,2 px.
+- Altura e estrutura do cabeçalho preservadas.
+- Azul elétrico mantido nos destaques, ícones e botão principal.
+- Dourado mantido como elemento distintivo da identidade EB, sem substituir o azul funcional.
 
-Pasta `images/`:
-- logotipos EB
-- monogramas
-- marca-d'água
-- favicon e ícones
-
-## Publicação
-1. Substitua os arquivos da raiz pelos deste pacote.
-2. Crie/envie a pasta `images` inteira.
-3. Remova da raiz os arquivos antigos de imagem/logo/favicon que ficaram soltos.
-4. Faça o commit e aguarde o deploy do GitHub Pages.
-
-O conteúdo, layout e identidade da V2.3 permanecem; esta versão apenas organiza os arquivos visuais.
+Nenhum conteúdo ou outra estrutura visual foi alterado.
