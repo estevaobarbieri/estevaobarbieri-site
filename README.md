@@ -1,30 +1,25 @@
-# Estevão Barbieri — Site profissional V2.3
+# Estevão Barbieri — Site V2.3.2
 
-Atualização da identidade visual com o monograma **EB** aprovado.
+Organização da estrutura de arquivos.
 
-## Alterações da V2.3
-- monograma EB no cabeçalho, substituindo a repetição do nome;
-- hero preservado com “Estevão Barbieri” como identificação principal;
-- LinkedIn alterado para “Perfil profissional”;
-- rodapé sem repetição do nome;
-- domínio incluído no rodapé;
-- favicon atualizado para o monograma EB;
-- identidade harmonizada com azul-marinho #0D1B2A e dourado #B88A3C;
-- áreas de atuação da V2.2 preservadas integralmente;
-- estrutura, currículo, contatos e responsividade preservados.
+## Estrutura
+Raiz:
+- index.html
+- style.css
+- script.js
+- CNAME
+- README.md
 
-## Publicação no GitHub
-Substitua na raiz do repositório:
-- `index.html`
-- `style.css`
-- `script.js`
-- `CNAME`
+Pasta `images/`:
+- logotipos EB
+- monogramas
+- marca-d'água
+- favicon e ícones
 
-Adicione:
-- `favicon.ico`
-- pasta `assets/brand/` completa
+## Publicação
+1. Substitua os arquivos da raiz pelos deste pacote.
+2. Crie/envie a pasta `images` inteira.
+3. Remova da raiz os arquivos antigos de imagem/logo/favicon que ficaram soltos.
+4. Faça o commit e aguarde o deploy do GitHub Pages.
 
-Depois faça o commit e aguarde o GitHub Pages concluir o deploy.
-
-## Observação
-O arquivo `favicon.svg` antigo pode ser removido do repositório, pois a V2.3 passa a usar o favicon EB.
+O conteúdo, layout e identidade da V2.3 permanecem; esta versão apenas organiza os arquivos visuais.
