@@ -1,14 +1,3 @@
-# Estevão Barbieri — Site profissional V2.1
+# Site profissional V2.2
 
-Versão de acabamento final.
-
-## Atualização
-Substitua na raiz do repositório:
-- `index.html`
-- `style.css`
-- `script.js`
-
-E adicione:
-- `favicon.svg`
-
-Após o commit, aguarde o GitHub Pages concluir o novo deploy.
+Atualização pontual das Áreas de Atuação. Para publicar, substitua `index.html` e `style.css`.

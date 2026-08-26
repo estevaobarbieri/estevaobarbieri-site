@@ -164,3 +164,6 @@ footer{background:#04111f;color:#8fa0b0}
 @media(prefers-reduced-motion:reduce){
   *{scroll-behavior:auto!important;transition:none!important}
 }
+
+.expertise-card-wide{grid-column:1 / -1}
+@media(max-width:800px){.expertise-card-wide{grid-column:auto}}
