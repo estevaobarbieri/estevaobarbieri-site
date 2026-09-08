@@ -1,13 +1,11 @@
-# Estevão Barbieri — Site V2.3.2
+# Estevão Barbieri — Site V2.4.0
 
-Ajuste pontual sobre a V2.3.1.
+Google Analytics 4 integrado sobre a V2.3.2.
 
-## Alteração
-- Monograma EB aumentado em 10% no cabeçalho.
-- Desktop: 52 px → 57,2 px.
-- Mobile: 42 px → 46,2 px.
-- Altura e estrutura do cabeçalho preservadas.
-- Azul elétrico mantido nos destaques, ícones e botão principal.
-- Dourado mantido como elemento distintivo da identidade EB, sem substituir o azul funcional.
+## Alterações
+- GA4 configurado com o ID `G-TCZQL0L48Z`.
+- Sinais do Google e personalização de anúncios desativados.
+- Eventos para cliques em WhatsApp, e-mail, LinkedIn e currículo.
+- Localização de cada botão identificada nos eventos.
 
-Nenhum conteúdo ou outra estrutura visual foi alterado.
+Nenhum conteúdo, endereço ou elemento visual foi alterado.
