@@ -1,0 +1,10 @@
+V2.4.1 — Otimização de fontes e CSS
+
+No GitHub Pages, substitua index.html e adicione a pasta fonts inteira ao lado dele, no mesmo commit. Não publique a pasta site-v2.4.1 como subpasta.
+Preserve CNAME, configuração do domínio, imagens e script.js. Faça backup antes da atualização.
+
+Mesmas fontes, conteúdo, estilos e GA4 G-TCZQL0L48Z. Fontes WOFF2 locais com licenças incluídas. CSS original incorporado ao HTML, eliminando duas requisições de CSS bloqueantes. Imagens originais preservadas.
+style.css é mantido como referência: futuras alterações de estilo precisam também ser aplicadas ao bloco style de index.html.
+
+Após publicar, confira o site no celular, os botões e page_view/contact_whatsapp no Tempo real do Analytics. Repita o PageSpeed para medir o resultado; não há nota garantida.
+O pacote não altera o site publicado automaticamente.

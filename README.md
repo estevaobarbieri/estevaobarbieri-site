@@ -1,4 +1,6 @@
-# Estevão Barbieri — Site V2.4.0
+# Estevão Barbieri — Site V2.4.1
+
+Otimização: fontes locais e CSS incorporado ao HTML. Leia INSTALACAO.txt antes de publicar.
 
 Google Analytics 4 integrado sobre a V2.3.2.
 
