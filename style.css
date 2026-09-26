@@ -306,3 +306,13 @@ footer{
   .expertise-card-wide ul{margin-top:0}
   .credentials{grid-template-columns:1fr;margin-top:24px}
 }
+
+/* V2.5.2 — registros no painel do hero (também no celular) */
+.hero-panel p{margin:14px 0}
+@media(max-width:800px){
+  .hero-panel{display:block;border-left:0;border-top:1px solid rgba(255,255,255,.18);padding:18px 0 0}
+  .hero-panel p{margin:8px 0}
+  .hero-panel .panel-line{display:none}
+}
+
+.hero-text{max-width:640px}

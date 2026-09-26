@@ -463,6 +463,15 @@ footer{
   .credentials{grid-template-columns:1fr;margin-top:24px}
 }
 
+/* V2.5.2 — registros no painel do hero (também no celular) */
+.hero-panel p{margin:14px 0}
+@media(max-width:800px){
+  .hero-panel{display:block;border-left:0;border-top:1px solid rgba(255,255,255,.18);padding:18px 0 0}
+  .hero-panel p{margin:8px 0}
+  .hero-panel .panel-line{display:none}
+}
+
+.hero-text{max-width:640px}
   </style>
 </head>
 <body>
@@ -491,22 +500,20 @@ footer{
         <h1>Estevão<br>Barbieri</h1>
         <div class="title-rule"></div>
         <h2>Perito Judicial e<br>Assistente Técnico</h2>
-        <p class="hero-text">Perícias e Assistência Técnica em Engenharia Elétrica</p>
-        <p class="positioning">Laudos e pareceres fundamentados em normas técnicas, inspeção e evidências — para o Juízo, advogados e partes.</p>
-        <p class="location"><em>Base em Franca-SP</em><span>·</span><em>Cadastrado no TJSP</em><span>·</span><em>Atendimento no interior paulista</em></p>
+        <p class="hero-text">Laudos e pareceres em Engenharia Elétrica, fundamentados em normas técnicas, inspeção e evidências.</p>
+        <p class="location"><em>Base em Franca-SP</em><span>·</span><em>Atendimento no interior paulista</em></p>
         <div class="actions">
           <a class="button primary" href="https://wa.me/5516997784037" target="_blank" rel="noopener" data-analytics-event="contact_whatsapp" data-analytics-location="hero">Entrar em contato <span>→</span></a>
           <a class="button secondary" href="https://drive.google.com/file/d/1kjQl4Ybc3uSK0U7nCqYSrbj-Fl8m8AOH/view?usp=sharing" target="_blank" rel="noopener" data-analytics-event="view_curriculum" data-analytics-location="hero">Currículo profissional</a>
         </div>
-        <p class="crea">CREA-SP nº 5071881404 <span>·</span> RNP 2624208844</p>
       </div>
-      <aside class="hero-panel" aria-label="Atuação profissional">
-        <p class="panel-label">ATUAÇÃO</p>
-        <p>PERÍCIAS JUDICIAIS</p>
+      <aside class="hero-panel" aria-label="Registros profissionais">
+        <p class="panel-label">REGISTROS</p>
+        <p>CREA-SP Nº 5071881404</p>
         <span class="panel-line"></span>
-        <p>ASSISTÊNCIA TÉCNICA</p>
+        <p>RNP 2624208844</p>
         <span class="panel-line"></span>
-        <p>LAUDOS E PARECERES</p>
+        <p>PERITO CADASTRADO NO TJSP</p>
       </aside>
     </div>
   </section>
@@ -518,10 +525,10 @@ footer{
         <h2>Atuação técnica fundamentada em engenharia.</h2>
       </div>
       <div class="body-copy">
-        <p>Engenheiro Eletricista formado pela UFTM, com cerca de 5 anos de experiência na indústria em sistemas elétricos, automação industrial, sistemas de controle e diagnóstico de falhas em equipamentos.</p>
-        <p>Atuo como perito judicial e assistente técnico em Engenharia Elétrica. Cada análise se apoia em inspeção, documentação, evidências e normas aplicáveis, com respostas objetivas aos quesitos.</p>
+        <p>Engenheiro Eletricista com cerca de 5 anos de experiência na indústria e prática em diagnóstico de falhas em equipamentos e sistemas elétricos.</p>
+        <p>Atuo como perito judicial e assistente técnico em Engenharia Elétrica. Cada análise se apoia em inspeção, documentação, evidências e normas aplicáveis.</p>
         <div class="audiences">
-          <div><span>Para o Juízo</span><p>Perito cadastrado no TJSP. Laudos claros, imparciais e dentro do prazo.</p></div>
+          <div><span>Para o Juízo</span><p>Laudos claros, imparciais e dentro do prazo.</p></div>
           <div><span>Para advogados e partes</span><p>Assistência técnica, elaboração de quesitos e pareceres técnicos.</p></div>
         </div>
       </div>
@@ -533,26 +540,25 @@ footer{
       <p class="section-number">02 / ÁREAS DE ATUAÇÃO</p>
       <div class="section-heading">
         <h2>Principais especialidades</h2>
-        <p>Atuação técnica direcionada à análise, caracterização e esclarecimento de questões relacionadas à Engenharia Elétrica.</p>
+        <p>Questões técnicas em ações cíveis, de consumo e securitárias que envolvem eletricidade.</p>
       </div>
 
       <div class="expertise-grid">
         <article class="expertise-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 25h9l4-13 6 25 4-12h9"/><circle cx="8" cy="25" r="2"/><circle cx="40" cy="25" r="2"/></svg></div><span class="card-no">01</span><h3>Energia, Medição e Qualidade</h3><ul>
-          <li>Consumo e fornecimento de energia elétrica</li>
-          <li>Irregularidades no sistema de medição de energia elétrica</li>
-          <li>Interrupções e qualidade de energia elétrica</li>
+          <li>Consumo, faturamento e fornecimento de energia</li>
+          <li>Irregularidades na medição</li>
+          <li>Interrupções e qualidade de energia</li>
           <li>Energia solar fotovoltaica e geração distribuída</li>
         </ul></article>
         <article class="expertise-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="8" y="9" width="32" height="30" rx="2"/><path d="M14 31h6V20h8v11h6M15 15h18"/></svg></div><span class="card-no">02</span><h3>Instalações, Equipamentos e Mobilidade</h3><ul>
-          <li>Danos elétricos em motores, equipamentos e mercadorias elétricas e eletrônicas</li>
-          <li>Análise e diagnóstico de falhas em instalações e sistemas elétricos</li>
+          <li>Danos elétricos em motores, equipamentos e eletroeletrônicos</li>
+          <li>Falhas em instalações e sistemas elétricos</li>
           <li>Recarga de veículos elétricos e híbridos</li>
         </ul></article>
         <article class="expertise-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 7 42 39H6L24 7Z"/><path d="M24 18v10M24 34h.01"/></svg></div><span class="card-no">03</span><h3>Acidentes, Incêndios e Sinistros</h3><ul>
-          <li>Sinistros e acidentes com eletricidade (eletroplessão)</li>
+          <li>Acidentes com eletricidade (eletroplessão)</li>
           <li>Incêndios com suspeita de origem elétrica em veículos e edificações</li>
-          <li>Sinistros em baterias de lítio</li>
-          <li>Explosões e incêndios eletroquímicos</li>
+          <li>Incêndios e explosões em baterias de lítio e sistemas eletroquímicos</li>
         </ul></article>
         <article class="expertise-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 34h32M13 34V18m22 16V18M10 18h28M17 18l7-8 7 8"/><path d="M24 10V6"/></svg></div><span class="card-no">04</span><h3>Redes e Infraestrutura Elétrica</h3><ul>
           <li>Colisões de veículos com redes e instalações elétricas</li>
@@ -591,7 +597,7 @@ footer{
           <h2>Formação e experiência profissional</h2>
         </div>
         <div class="qualification-copy">
-          <p>Experiência em engenharia e tecnologia aplicadas à indústria, com atuação em automação industrial (CLP, IHM, SCADA, DCS), sistemas de controle, equipamentos, softwares industriais, análise técnica, diagnóstico de falhas e desenvolvimento de soluções tecnológicas.</p>
+          <p>Atuação industrial em automação (CLP, IHM, SCADA, DCS), sistemas de controle, equipamentos e softwares industriais, com desenvolvimento de soluções tecnológicas.</p>
           <a class="arrow-link" href="https://drive.google.com/file/d/1kjQl4Ybc3uSK0U7nCqYSrbj-Fl8m8AOH/view?usp=sharing" target="_blank" rel="noopener" data-analytics-event="view_curriculum" data-analytics-location="qualification">Visualizar currículo profissional <span>→</span></a>
         </div>
       </div>
@@ -609,12 +615,12 @@ footer{
           <div class="credential">
             <span>CADASTRO PERICIAL</span>
             <strong>Tribunal de Justiça de São Paulo — TJSP</strong>
-            <p>Função Perito ativa · comarcas do interior paulista</p>
+            <p>Função Perito ativa</p>
           </div>
           <div class="credential">
-            <span>FORMAÇÃO COMPLEMENTAR</span>
-            <strong>Elétrica Forense — FPJE (em andamento)</strong>
-            <p>MBA em Gestão de Projetos — FUNDACE / FEARP-USP (em andamento)</p>
+            <span>EM ANDAMENTO</span>
+            <strong>Elétrica Forense — FPJE</strong>
+            <p>MBA em Gestão de Projetos — FUNDACE / FEARP-USP</p>
           </div>
       </div>
     </div>
@@ -626,13 +632,12 @@ footer{
       <div class="contact-grid">
         <div>
           <h2>Vamos conversar sobre sua demanda técnica.</h2>
-          <p>Perícias e Assistência Técnica em Engenharia Elétrica.<br>Base em Franca-SP, com atendimento no interior paulista.</p>
+          <p>Informe o número do processo ou descreva brevemente o caso.<br>Base em Franca-SP, com atendimento no interior paulista.</p>
         </div>
         <div class="contact-links">
           <a href="https://wa.me/5516997784037" target="_blank" rel="noopener" data-analytics-event="contact_whatsapp" data-analytics-location="contact"><span>WhatsApp</span><strong>(16) 99778-4037</strong></a>
           <a href="mailto:contato@estevaobarbieri.com.br" data-analytics-event="contact_email" data-analytics-location="contact"><span>E-mail</span><strong>contato@estevaobarbieri.com.br</strong></a>
           <a href="https://www.linkedin.com/in/estevãobarbieri" target="_blank" rel="noopener" data-analytics-event="view_linkedin" data-analytics-location="contact"><span>LinkedIn</span><strong>Perfil profissional</strong></a>
-          <div><span>Registro</span><strong>CREA-SP nº 5071881404</strong></div>
         </div>
       </div>
     </div>
@@ -641,8 +646,8 @@ footer{
 
 <footer>
   <div class="container footer">
-    <p class="footer-role">Engenheiro Eletricista · Perito Judicial e Assistente Técnico</p>
-    <a class="footer-domain" href="#inicio">estevaobarbieri.com.br</a>
+    <p class="footer-role">Estevão Barbieri · CREA-SP nº 5071881404</p>
+    <a class="footer-domain" href="#inicio">Voltar ao topo ↑</a>
     <p class="footer-copy">© <span id="year"></span></p>
   </div>
 </footer>

@@ -1,4 +1,11 @@
-# Estevão Barbieri — Site V2.5.1
+# Estevão Barbieri — Site V2.5.2
+
+## V2.5.2 — remoção de redundâncias
+- Hero: 1 frase de posicionamento (antes 3 repetiam "perícias/assistência"); painel lateral agora mostra registros (CREA, RNP, TJSP), também no celular; linha CREA abaixo dos botões removida.
+- Sobre/Qualificação: textos sem sobreposição (UFTM, TJSP, automação, quesitos).
+- Áreas: subtítulo objetivo; itens enxutos ("energia elétrica" e "sinistros" repetidos).
+- Contato: orientação prática; linha "Registro" removida (já no rodapé e na Qualificação).
+- Rodapé: nome + CREA; "Voltar ao topo" no lugar do domínio.
 
 ## V2.5.1
 - Card Automação: título à esquerda, itens à direita (sem espaço vazio).
