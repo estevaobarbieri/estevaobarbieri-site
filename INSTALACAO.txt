@@ -7,6 +7,6 @@ Nada mais muda (script.js, sitemap, robots, imagens, fonts, CNAME).
 
 Após publicar:
 1. Ctrl+F5 e clicar em "Ver currículo" (início e Qualificação): deve abrir o PDF em nova guia, com opção de baixar.
-2. Analytics > Tempo real: view_curriculum (e file_download).
+2. Analytics > Tempo real: view_curriculum.
 3. Para atualizar o CV no futuro: gerar novo PDF com o MESMO nome e substituir o arquivo.
 4. O link antigo do Google Drive pode ser desativado depois (cartões/e-mails antigos que usem esse link deixarão de funcionar).
