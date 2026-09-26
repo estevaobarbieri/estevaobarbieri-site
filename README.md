@@ -2,7 +2,7 @@
 
 ## V2.6 — currículo no próprio domínio
 - PDF em curriculo/CV_Estevao_Barbieri.pdf (protegido contra edição; impressão permitida).
-- Botões "Baixar currículo" fazem download direto (atributo download), sem abrir Drive.
+- Botões "Ver currículo" abrem o PDF em nova guia (visualizador do navegador, com opção de baixar e imprimir).
 - Evento GA4 mantido: view_curriculum (hero e qualification). GA4 também registra file_download automaticamente.
 - Sobre: "mais de 6 anos" (jun/2020–atual), alinhado ao CV.
 

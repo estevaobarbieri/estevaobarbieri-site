@@ -6,7 +6,7 @@ No GitHub, em um único commit, na raiz do repositório:
 Nada mais muda (script.js, sitemap, robots, imagens, fonts, CNAME).
 
 Após publicar:
-1. Ctrl+F5 e clicar em "Baixar currículo" (início e Qualificação): deve baixar o PDF.
+1. Ctrl+F5 e clicar em "Ver currículo" (início e Qualificação): deve abrir o PDF em nova guia, com opção de baixar.
 2. Analytics > Tempo real: view_curriculum (e file_download).
 3. Para atualizar o CV no futuro: gerar novo PDF com o MESMO nome e substituir o arquivo.
 4. O link antigo do Google Drive pode ser desativado depois (cartões/e-mails antigos que usem esse link deixarão de funcionar).

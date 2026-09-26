@@ -316,6 +316,3 @@ footer{
 }
 
 .hero-text{max-width:640px}
-
-.button span:only-child,.arrow-link span{display:inline-block}
-.button.secondary:hover span,.arrow-link[download]:hover span{transform:translateY(2px)}
