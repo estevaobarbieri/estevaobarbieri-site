@@ -3,18 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Estevão Barbieri — Engenheiro Eletricista, Perito Judicial e Assistente Técnico. Perícias e assistência técnica em Engenharia Elétrica.">
+  <meta name="description" content="Estevão Barbieri — Engenheiro Eletricista, Perito Judicial cadastrado no TJSP e Assistente Técnico. Perícias em Engenharia Elétrica em Franca-SP e interior paulista.">
   <meta name="theme-color" content="#0D1B2A">
   <meta name="robots" content="index, follow">
+  <meta name="author" content="Estevão Barbieri">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Estevão Barbieri">
   <meta property="og:title" content="Estevão Barbieri | Perito Judicial e Assistente Técnico">
-  <meta property="og:description" content="Perícias e Assistência Técnica em Engenharia Elétrica.">
+  <meta property="og:description" content="Perícias e Assistência Técnica em Engenharia Elétrica. Franca-SP e interior paulista.">
   <meta property="og:url" content="https://estevaobarbieri.com.br/">
+  <meta property="og:image" content="https://estevaobarbieri.com.br/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Estevão Barbieri — Perito Judicial em Engenharia Elétrica">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://estevaobarbieri.com.br/">
   <link rel="icon" href="images/favicon.ico" sizes="any">
   <link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="images/favicon-180.png">
   <title>Estevão Barbieri | Perito Judicial e Assistente Técnico</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Estevão Barbieri — Perícias e Assistência Técnica em Engenharia Elétrica",
+    "url": "https://estevaobarbieri.com.br/",
+    "image": "https://estevaobarbieri.com.br/images/og-image.jpg",
+    "logo": "https://estevaobarbieri.com.br/images/favicon-512.png",
+    "telephone": "+55-16-99778-4037",
+    "email": "contato@estevaobarbieri.com.br",
+    "address": {"@type": "PostalAddress", "addressLocality": "Franca", "addressRegion": "SP", "addressCountry": "BR"},
+    "areaServed": {"@type": "State", "name": "São Paulo"},
+    "serviceType": ["Perícia judicial em Engenharia Elétrica", "Assistência técnica pericial", "Laudos e pareceres técnicos"],
+    "founder": {
+      "@type": "Person",
+      "name": "Estevão Barbieri",
+      "jobTitle": "Engenheiro Eletricista — Perito Judicial e Assistente Técnico",
+      "alumniOf": "Universidade Federal do Triângulo Mineiro — UFTM",
+      "sameAs": ["https://www.linkedin.com/in/estev%C3%A3obarbieri"]
+    }
+  }
+  </script>
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCZQL0L48Z"></script>
   <script>
@@ -375,21 +405,64 @@ footer{
   }
 }
 
+/* V2.5 — conteúdo, legibilidade e menu mobile */
+.kicker,.section-number{font-size:.78rem}
+.credential span{font-size:.74rem}
+.contact-links span{font-size:.76rem;color:#9bb8d1}
+.card-no,.panel-number{display:none}
+.location{font-size:.9rem;color:#d7e1eb;margin:14px 0 0}
+.location em{font-style:normal}
+.location span{color:var(--gold);padding:0 8px}
+.qualification{border-top:1px solid var(--line)}
+.panel-label{color:var(--gold)!important;font-weight:600}
+.audiences{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.audiences div{border-top:2px solid var(--accent);padding-top:14px}
+.audiences span{display:block;font-family:"Montserrat",sans-serif;font-weight:600;color:var(--navy);font-size:.95rem;margin-bottom:6px}
+.audiences p{font-size:.95rem!important;margin:0!important}
+.steps{list-style:none;counter-reset:step;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line)}
+.steps li{counter-increment:step;padding:30px 26px 30px 0;border-right:1px solid var(--line)}
+.steps li+li{padding-left:26px}
+.steps li:last-child{border-right:0}
+.steps li::before{content:counter(step,decimal-leading-zero);display:block;font-family:"Montserrat",sans-serif;font-weight:600;font-size:.85rem;color:var(--gold);margin-bottom:16px}
+.steps strong{font-family:"Montserrat",sans-serif;font-size:1.1rem;color:var(--navy)}
+.steps p{margin:10px 0 0;color:var(--muted);font-size:.95rem}
+.menu-toggle{display:none}
+@media(max-width:800px){
+  .kicker,.section-number{font-size:.76rem}
+  .location span{display:none}
+  .location em{display:block}
+  .location{line-height:1.8}
+  .audiences{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .steps li,.steps li+li{padding:22px 0;border-right:0;border-bottom:1px solid var(--line)}
+  .nav-cta{margin-left:auto}
+  .menu-toggle{display:flex;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;padding:0 10px;background:transparent;border:1px solid rgba(255,255,255,.28);border-radius:7px;cursor:pointer}
+  .menu-toggle span{display:block;height:2px;background:#fff;border-radius:2px;transition:transform .18s ease,opacity .18s ease}
+  .menu-open .menu-toggle span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .menu-open .menu-toggle span:nth-child(2){opacity:0}
+  .menu-open .menu-toggle span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  .menu-open .desktop-nav{display:flex;position:absolute;top:66px;left:0;right:0;flex-direction:column;gap:0;margin:0;background:#071A33;box-shadow:0 12px 24px rgba(0,0,0,.35);border-bottom:1px solid rgba(255,255,255,.09)}
+  .menu-open .desktop-nav a{padding:15px 20px;border-top:1px solid rgba(255,255,255,.07);font-size:.95rem}
+  .menu-open .desktop-nav a::after{display:none}
+}
+
   </style>
 </head>
 <body>
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="#inicio" aria-label="Estevão Barbieri - início">
-      <img src="images/EB_monograma_fundo_escuro.png" alt="" width="52" height="50">
+      <img src="images/EB_monograma_fundo_escuro.png" alt="Monograma EB — Estevão Barbieri" width="52" height="50">
     </a>
-    <nav class="desktop-nav" aria-label="Navegação principal">
+    <nav class="desktop-nav" id="menu" aria-label="Navegação principal">
       <a href="#sobre">Sobre</a>
       <a href="#atuacao">Áreas de atuação</a>
+      <a href="#como-atuo">Como atuo</a>
       <a href="#qualificacao">Qualificação</a>
       <a href="#contato">Contato</a>
     </nav>
     <a class="nav-cta" href="https://wa.me/5516997784037" target="_blank" rel="noopener" data-analytics-event="contact_whatsapp" data-analytics-location="header">WhatsApp</a>
+    <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
@@ -402,7 +475,8 @@ footer{
         <div class="title-rule"></div>
         <h2>Perito Judicial e<br>Assistente Técnico</h2>
         <p class="hero-text">Perícias e Assistência Técnica em Engenharia Elétrica</p>
-        <p class="positioning">Análise técnica, precisão e imparcialidade aplicadas à Engenharia Elétrica.</p>
+        <p class="positioning">Laudos e pareceres fundamentados em normas técnicas, inspeção e evidências — para o Juízo, advogados e partes.</p>
+        <p class="location"><em>Base em Franca-SP</em><span>·</span><em>Cadastrado no TJSP</em><span>·</span><em>Atendimento no interior paulista</em></p>
         <div class="actions">
           <a class="button primary" href="https://wa.me/5516997784037" target="_blank" rel="noopener" data-analytics-event="contact_whatsapp" data-analytics-location="hero">Entrar em contato <span>→</span></a>
           <a class="button secondary" href="https://drive.google.com/file/d/1kjQl4Ybc3uSK0U7nCqYSrbj-Fl8m8AOH/view?usp=sharing" target="_blank" rel="noopener" data-analytics-event="view_curriculum" data-analytics-location="hero">Currículo profissional</a>
@@ -410,12 +484,12 @@ footer{
         <p class="crea">CREA-SP nº 5071881404 <span>·</span> estevaobarbieri.com.br</p>
       </div>
       <aside class="hero-panel" aria-label="Atuação profissional">
-        <span class="panel-number">01</span>
-        <p>PERÍCIAS</p>
+        <p class="panel-label">ATUAÇÃO</p>
+        <p>PERÍCIAS JUDICIAIS</p>
         <span class="panel-line"></span>
         <p>ASSISTÊNCIA TÉCNICA</p>
         <span class="panel-line"></span>
-        <p>ENGENHARIA ELÉTRICA</p>
+        <p>LAUDOS E PARECERES</p>
       </aside>
     </div>
   </section>
@@ -423,19 +497,23 @@ footer{
   <section class="section about" id="sobre">
     <div class="container split">
       <div>
-        <p class="section-number">02 / SOBRE</p>
+        <p class="section-number">01 / SOBRE</p>
         <h2>Atuação técnica fundamentada em engenharia.</h2>
       </div>
       <div class="body-copy">
-        <p>Engenheiro Eletricista com experiência profissional em sistemas elétricos, automação industrial, sistemas de controle, equipamentos e tecnologias aplicadas à indústria.</p>
-        <p>Atuação em perícias judiciais e assistência técnica em Engenharia Elétrica, com análise baseada em critérios técnicos, documentação, inspeções, evidências e normas aplicáveis.</p>
+        <p>Engenheiro Eletricista formado pela UFTM, com cerca de 5 anos de experiência na indústria em sistemas elétricos, automação industrial, sistemas de controle e diagnóstico de falhas em equipamentos.</p>
+        <p>Atuo como perito judicial e assistente técnico em Engenharia Elétrica. Cada análise se apoia em inspeção, documentação, evidências e normas aplicáveis, com respostas objetivas aos quesitos.</p>
+        <div class="audiences">
+          <div><span>Para o Juízo</span><p>Perito cadastrado no TJSP. Laudos claros, imparciais e dentro do prazo.</p></div>
+          <div><span>Para advogados e partes</span><p>Assistência técnica, elaboração de quesitos e pareceres técnicos.</p></div>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="section expertise" id="atuacao">
     <div class="container">
-      <p class="section-number">03 / ÁREAS DE ATUAÇÃO</p>
+      <p class="section-number">02 / ÁREAS DE ATUAÇÃO</p>
       <div class="section-heading">
         <h2>Principais especialidades</h2>
         <p>Atuação técnica direcionada à análise, caracterização e esclarecimento de questões relacionadas à Engenharia Elétrica.</p>
@@ -463,12 +541,28 @@ footer{
           <li>Colisões de veículos com redes e instalações elétricas</li>
           <li>Invasão de faixas de servidão de linhas de transmissão</li>
         </ul></article>
-        <article class="expertise-card expertise-card-wide"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M14 7h20v34H14z"/><path d="M19 15h10M19 22h10M19 29h6"/><path d="m29 34 3 3 6-7"/></svg></div><span class="card-no">05</span><h3>Perícias e Assistência Técnica</h3><ul>
-          <li>Perícias judiciais e assistência técnica às partes</li>
-          <li>Laudos e pareceres técnicos</li>
-          <li>Quesitos, inspeções e análise documental</li>
+        <article class="expertise-card expertise-card-wide"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="7" y="10" width="34" height="22" rx="2"/><path d="M13 38h22M24 32v6M13 25l6-7 5 4 6-8 5 5"/></svg></div><span class="card-no">05</span><h3>Automação e Sistemas Industriais</h3><ul>
+          <li>Falhas em painéis, CLPs, IHMs e sistemas supervisórios</li>
+          <li>Paradas de produção e danos associados a falhas elétricas ou de controle</li>
+          <li>Fornecimento, comissionamento e desempenho de sistemas de automação</li>
         </ul></article>
       </div>
+    </div>
+  </section>
+
+  <section class="section process" id="como-atuo">
+    <div class="container">
+      <p class="section-number">03 / COMO ATUO</p>
+      <div class="section-heading">
+        <h2>Da nomeação ao laudo</h2>
+        <p>Etapas conduzidas com transparência às partes e rastreabilidade técnica.</p>
+      </div>
+      <ol class="steps">
+        <li><strong>Análise dos autos</strong><p>Estudo do processo, dos quesitos e da documentação. Proposta de honorários fundamentada.</p></li>
+        <li><strong>Vistoria</strong><p>Inspeção com ciência prévia às partes e assistentes técnicos. Registro fotográfico e medições.</p></li>
+        <li><strong>Análise técnica</strong><p>Confronto das evidências com normas aplicáveis: ABNT NBR 5410, NBR 14039, NR-10, PRODIST/ANEEL.</p></li>
+        <li><strong>Laudo e esclarecimentos</strong><p>Respostas objetivas a cada quesito, no prazo, e esclarecimentos quando solicitados.</p></li>
+      </ol>
     </div>
   </section>
 
@@ -486,10 +580,21 @@ footer{
           <div class="credential">
             <span>REGISTRO PROFISSIONAL</span>
             <strong>CREA-SP nº 5071881404</strong>
+            <p>RNP 2624208844</p>
+          </div>
+          <div class="credential">
+            <span>CADASTRO PERICIAL</span>
+            <strong>Tribunal de Justiça de São Paulo — TJSP</strong>
+            <p>Função Perito ativa · comarcas do interior paulista</p>
+          </div>
+          <div class="credential">
+            <span>FORMAÇÃO COMPLEMENTAR</span>
+            <strong>Elétrica Forense — FPJE (em andamento)</strong>
+            <p>MBA em Gestão de Projetos — FUNDACE / FEARP-USP (em andamento)</p>
           </div>
         </div>
         <div class="qualification-copy">
-          <p>Experiência em engenharia e tecnologia aplicadas à indústria, com atuação em automação industrial, sistemas de controle, equipamentos, softwares industriais, análise técnica, diagnóstico de falhas e desenvolvimento de soluções tecnológicas.</p>
+          <p>Experiência em engenharia e tecnologia aplicadas à indústria, com atuação em automação industrial (CLP, IHM, SCADA, DCS), sistemas de controle, equipamentos, softwares industriais, análise técnica, diagnóstico de falhas e desenvolvimento de soluções tecnológicas.</p>
           <a class="arrow-link" href="https://drive.google.com/file/d/1kjQl4Ybc3uSK0U7nCqYSrbj-Fl8m8AOH/view?usp=sharing" target="_blank" rel="noopener" data-analytics-event="view_curriculum" data-analytics-location="qualification">Visualizar currículo profissional <span>→</span></a>
         </div>
       </div>
@@ -502,7 +607,7 @@ footer{
       <div class="contact-grid">
         <div>
           <h2>Vamos conversar sobre sua demanda técnica.</h2>
-          <p>Perícias e Assistência Técnica em Engenharia Elétrica.</p>
+          <p>Perícias e Assistência Técnica em Engenharia Elétrica.<br>Base em Franca-SP, com atendimento no interior paulista.</p>
         </div>
         <div class="contact-links">
           <a href="https://wa.me/5516997784037" target="_blank" rel="noopener" data-analytics-event="contact_whatsapp" data-analytics-location="contact"><span>WhatsApp</span><strong>(16) 99778-4037</strong></a>

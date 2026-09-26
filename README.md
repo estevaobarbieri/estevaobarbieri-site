@@ -1,13 +1,17 @@
-# Estevão Barbieri — Site V2.4.1
+# Estevão Barbieri — Site V2.5
 
-Otimização: fontes locais e CSS incorporado ao HTML. Leia INSTALACAO.txt antes de publicar.
+Base: V2.4.1 (fontes locais, CSS incorporado, GA4 `G-TCZQL0L48Z`).
 
-Google Analytics 4 integrado sobre a V2.3.2.
+## Alterações V2.5
+- Conteúdo: localização (Franca-SP · TJSP · interior paulista), "Sobre" com experiência concreta e públicos (Juízo / advogados e partes).
+- Nova área: Automação e Sistemas Industriais.
+- Nova seção "Como atuo" (4 etapas, normas de referência).
+- Qualificação: RNP, cadastro TJSP, formação complementar.
+- Numeração única das seções (01–05); números dos cards e "01" do hero ocultos.
+- Rótulos pequenos com fonte e contraste maiores.
+- Menu mobile (botão ☰).
+- SEO: og:image, og:locale, twitter card, JSON-LD (ProfessionalService), sitemap.xml, robots.txt, alt no logo.
 
-## Alterações
-- GA4 configurado com o ID `G-TCZQL0L48Z`.
-- Sinais do Google e personalização de anúncios desativados.
-- Eventos para cliques em WhatsApp, e-mail, LinkedIn e currículo.
-- Localização de cada botão identificada nos eventos.
-
-Nenhum conteúdo, endereço ou elemento visual foi alterado.
+## Preservado
+- Bloco GA4 idêntico; eventos contact_whatsapp, contact_email, view_linkedin, view_curriculum inalterados.
+- Links de currículo (Drive) e LinkedIn inalterados.
