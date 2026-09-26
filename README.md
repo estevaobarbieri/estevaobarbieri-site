@@ -1,4 +1,9 @@
-# Estevão Barbieri — Site V2.5
+# Estevão Barbieri — Site V2.5.1
+
+## V2.5.1
+- Card Automação: título à esquerda, itens à direita (sem espaço vazio).
+- Qualificação: título + texto no topo; credenciais em grade de 4 colunas.
+- Hero: "CREA-SP · RNP" no lugar do domínio repetido.
 
 Base: V2.4.1 (fontes locais, CSS incorporado, GA4 `G-TCZQL0L48Z`).
 

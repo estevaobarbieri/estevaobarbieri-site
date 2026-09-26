@@ -289,3 +289,20 @@ footer{
   .menu-open .desktop-nav a{padding:15px 20px;border-top:1px solid rgba(255,255,255,.07);font-size:.95rem}
   .menu-open .desktop-nav a::after{display:none}
 }
+
+/* V2.5.1 — ajustes de equilíbrio visual */
+.expertise-card-wide{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);column-gap:60px;align-items:start}
+.expertise-card-wide .icon,.expertise-card-wide h3{grid-column:1}
+.expertise-card-wide{min-height:auto;align-content:start;grid-template-rows:auto 1fr}
+.expertise-card-wide h3{align-self:start}
+.expertise-card-wide ul{grid-column:2;grid-row:1 / span 2;align-self:start;margin-top:90px}
+.qualification-grid{align-items:end}
+.qualification-copy{padding-top:0}
+.credentials{display:grid;grid-template-columns:repeat(4,1fr);gap:0 36px;margin-top:48px}
+.credentials .credential{margin-top:0}
+@media(max-width:1000px){.credentials{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:800px){
+  .expertise-card-wide{display:block}
+  .expertise-card-wide ul{margin-top:0}
+  .credentials{grid-template-columns:1fr;margin-top:24px}
+}

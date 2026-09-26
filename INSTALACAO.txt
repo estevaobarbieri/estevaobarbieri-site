@@ -1,13 +1,9 @@
-V2.5 — Conteúdo, menu mobile e SEO
+V2.5.1 — Ajustes visuais
 
 No GitHub, em um único commit, na raiz do repositório:
-- SUBSTITUIR: index.html, style.css, script.js, README.md, INSTALACAO.txt
-- ADICIONAR:  sitemap.xml, robots.txt, images/og-image.jpg
-Não alterar: CNAME, pasta fonts, demais imagens.
+- SUBSTITUIR: index.html, style.css, README.md, INSTALACAO.txt
+Nada mais muda (script.js, sitemap, robots, imagens, fonts, CNAME).
 
 Após publicar:
-1. Conferir o site no celular (menu ☰) e no computador.
-2. Analytics > Tempo real: page_view e contact_whatsapp devem aparecer.
-3. Abrir https://estevaobarbieri.com.br/sitemap.xml e /robots.txt.
-4. Google Search Console: enviar sitemap.xml.
-5. Pré-visualização do link no WhatsApp pode levar alguns dias para atualizar (cache).
+1. Ctrl+F5 no site (limpar cache) e conferir celular e computador.
+2. Analytics > Tempo real: page_view e contact_whatsapp.

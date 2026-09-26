@@ -446,6 +446,23 @@ footer{
   .menu-open .desktop-nav a::after{display:none}
 }
 
+/* V2.5.1 — ajustes de equilíbrio visual */
+.expertise-card-wide{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);column-gap:60px;align-items:start}
+.expertise-card-wide .icon,.expertise-card-wide h3{grid-column:1}
+.expertise-card-wide{min-height:auto;align-content:start;grid-template-rows:auto 1fr}
+.expertise-card-wide h3{align-self:start}
+.expertise-card-wide ul{grid-column:2;grid-row:1 / span 2;align-self:start;margin-top:90px}
+.qualification-grid{align-items:end}
+.qualification-copy{padding-top:0}
+.credentials{display:grid;grid-template-columns:repeat(4,1fr);gap:0 36px;margin-top:48px}
+.credentials .credential{margin-top:0}
+@media(max-width:1000px){.credentials{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:800px){
+  .expertise-card-wide{display:block}
+  .expertise-card-wide ul{margin-top:0}
+  .credentials{grid-template-columns:1fr;margin-top:24px}
+}
+
   </style>
 </head>
 <body>
@@ -481,7 +498,7 @@ footer{
           <a class="button primary" href="https://wa.me/5516997784037" target="_blank" rel="noopener" data-analytics-event="contact_whatsapp" data-analytics-location="hero">Entrar em contato <span>→</span></a>
           <a class="button secondary" href="https://drive.google.com/file/d/1kjQl4Ybc3uSK0U7nCqYSrbj-Fl8m8AOH/view?usp=sharing" target="_blank" rel="noopener" data-analytics-event="view_curriculum" data-analytics-location="hero">Currículo profissional</a>
         </div>
-        <p class="crea">CREA-SP nº 5071881404 <span>·</span> estevaobarbieri.com.br</p>
+        <p class="crea">CREA-SP nº 5071881404 <span>·</span> RNP 2624208844</p>
       </div>
       <aside class="hero-panel" aria-label="Atuação profissional">
         <p class="panel-label">ATUAÇÃO</p>
@@ -572,6 +589,13 @@ footer{
       <div class="qualification-grid">
         <div>
           <h2>Formação e experiência profissional</h2>
+        </div>
+        <div class="qualification-copy">
+          <p>Experiência em engenharia e tecnologia aplicadas à indústria, com atuação em automação industrial (CLP, IHM, SCADA, DCS), sistemas de controle, equipamentos, softwares industriais, análise técnica, diagnóstico de falhas e desenvolvimento de soluções tecnológicas.</p>
+          <a class="arrow-link" href="https://drive.google.com/file/d/1kjQl4Ybc3uSK0U7nCqYSrbj-Fl8m8AOH/view?usp=sharing" target="_blank" rel="noopener" data-analytics-event="view_curriculum" data-analytics-location="qualification">Visualizar currículo profissional <span>→</span></a>
+        </div>
+      </div>
+      <div class="credentials">
           <div class="credential">
             <span>FORMAÇÃO</span>
             <strong>Engenharia Elétrica</strong>
@@ -592,11 +616,6 @@ footer{
             <strong>Elétrica Forense — FPJE (em andamento)</strong>
             <p>MBA em Gestão de Projetos — FUNDACE / FEARP-USP (em andamento)</p>
           </div>
-        </div>
-        <div class="qualification-copy">
-          <p>Experiência em engenharia e tecnologia aplicadas à indústria, com atuação em automação industrial (CLP, IHM, SCADA, DCS), sistemas de controle, equipamentos, softwares industriais, análise técnica, diagnóstico de falhas e desenvolvimento de soluções tecnológicas.</p>
-          <a class="arrow-link" href="https://drive.google.com/file/d/1kjQl4Ybc3uSK0U7nCqYSrbj-Fl8m8AOH/view?usp=sharing" target="_blank" rel="noopener" data-analytics-event="view_curriculum" data-analytics-location="qualification">Visualizar currículo profissional <span>→</span></a>
-        </div>
       </div>
     </div>
   </section>
