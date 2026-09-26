@@ -1,4 +1,10 @@
-# Estevão Barbieri — Site V2.5.2
+# Estevão Barbieri — Site V2.6
+
+## V2.6 — currículo no próprio domínio
+- PDF em curriculo/CV_Estevao_Barbieri.pdf (protegido contra edição; impressão permitida).
+- Botões "Baixar currículo" fazem download direto (atributo download), sem abrir Drive.
+- Evento GA4 mantido: view_curriculum (hero e qualification). GA4 também registra file_download automaticamente.
+- Sobre: "mais de 6 anos" (jun/2020–atual), alinhado ao CV.
 
 ## V2.5.2 — remoção de redundâncias
 - Hero: 1 frase de posicionamento (antes 3 repetiam "perícias/assistência"); painel lateral agora mostra registros (CREA, RNP, TJSP), também no celular; linha CREA abaixo dos botões removida.
