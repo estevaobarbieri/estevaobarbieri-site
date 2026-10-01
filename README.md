@@ -1,4 +1,8 @@
-# Estevão Barbieri — Site V2.6.1
+# Estevão Barbieri — Site V2.6.2
+
+## V2.6.2 — currículo pericial padronizado (01/10/2026)
+- curriculo/CV_Estevao_Barbieri.pdf substituído (mesmo nome/caminho; links e evento view_curriculum inalterados).
+- CV com as 12 áreas, "mais de 5 anos", "Perito cadastrado no TJSP".
 
 ## V2.6.1 — áreas alinhadas às palavras-chave (01/10/2026)
 - Seção Áreas de atuação: itens com os mesmos termos do perfil TJSP e dos e-mails de prospecção (medição, eletroplessão, mercadorias, baterias de lítio, explosões e incêndios eletroquímicos, qualidade de energia elétrica).
@@ -8,7 +12,7 @@
 - PDF em curriculo/CV_Estevao_Barbieri.pdf (protegido contra edição; impressão permitida).
 - Botões "Ver currículo" abrem o PDF em nova guia (visualizador do navegador, com opção de baixar e imprimir).
 - Evento GA4 mantido: view_curriculum (hero e qualification). Evento file_download (medição otimizada) deve ficar desativado no painel do GA4.
-- Sobre: "mais de 6 anos" (jun/2020–atual), alinhado ao CV.
+- Sobre: "mais de 5 anos" — padrão único em site, CV e perfil (só muda ao completar 10).
 
 ## V2.5.2 — remoção de redundâncias
 - Hero: 1 frase de posicionamento (antes 3 repetiam "perícias/assistência"); painel lateral agora mostra registros (CREA, RNP, TJSP), também no celular; linha CREA abaixo dos botões removida.
