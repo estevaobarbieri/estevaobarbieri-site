@@ -1,4 +1,8 @@
-# Estevão Barbieri — Site V2.6
+# Estevão Barbieri — Site V2.6.1
+
+## V2.6.1 — áreas alinhadas às palavras-chave (01/10/2026)
+- Seção Áreas de atuação: itens com os mesmos termos do perfil TJSP e dos e-mails de prospecção (medição, eletroplessão, mercadorias, baterias de lítio, explosões e incêndios eletroquímicos, qualidade de energia elétrica).
+- Sem mudança de layout, GA4 ou links.
 
 ## V2.6 — currículo no próprio domínio
 - PDF em curriculo/CV_Estevao_Barbieri.pdf (protegido contra edição; impressão permitida).
